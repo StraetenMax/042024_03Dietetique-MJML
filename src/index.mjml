@@ -3,7 +3,7 @@
     <mj-head>
         <mj-title>relance Journées de la Diététique</mj-title>
     <!--font-->
-        <mj-font name="Roboto" href="" />
+        <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" />
     <!--Bloquer Dark mode-->
         <mj-raw>
             <meta name="color-scheme" content="light"></meta>
@@ -13,20 +13,109 @@
     <!--attributes-->
         <mj-attributes>
             <mj-all font-family="Roboto, Arial, Helvetica, sans-serif" />
+            <mj-class name="Dsection" background-color="#ffff" />
             
         </mj-attributes>
         <mj-breakpoint width="400px" />
     <!--Style-->
+        <!-- 
+            color text="#2D3748";
+            rose f ="#A83163";
+            rose c ="#ec619f";
+            font= "#edf2f7"
+        -->
+        
         <mj-style>
-            
         </mj-style>
     </mj-head>
 <!--Body-->
-    <mj-body>
+    <mj-body background-color="#edf2f7">
     <!--Hero + Signature-->
+    <mj-section mj-class="Dsection">
+        <mj-column width="600px">
+        <mj-image src="" alt="" />   
+        </mj-column>
+    </mj-section>
+    <mj-section mj-class="Dsection">
+        <mj-column width="590px">
+        <mj-text>
+        Journées de la Diététique
+        </mj-text>
+            <mj-text>
+                Vendredi 26 avril
+            </mj-text>
+            <mj-text>
+                9h à 13h
+            </mj-text>
+            <mj-text>
+                Dans le cadre de votre parcours de formation, Ecosup Diététique vous accompagne en vous proposant de participer aux :
+            </mj-text>
+        </mj-column>
+    </mj-section>
     <!--Button-->
+    <mj-section mj-class="Dsection">
+        <mj-column width="300px">
+        <mj-button>
+            Inscrivez-vous
+        </mj-button>
+        </mj-column>
+    </mj-section>
     <!--Articles-->
+    <mj-section mj-class="Dsection">
+        <mj-column width="295px">
+            <mj-image src="" alt="" />
+            <mj-text>
+                Rencontre avec:
+            </mj-text>
+            <mj-text>
+                - Etudiants 2e année
+            </mj-text>
+            <mj-text>
+                - Professionnels
+            </mj-text>
+            <mj-text>
+                - Professeurs
+            </mj-text>
+        </mj-column>
+            <mj-column width="295px">
+                <mj-text>
+                Participation à :
+                </mj-text>
+                <mj-text>
+                    - Ateliers diététiques
+                </mj-text>
+                <mj-text>
+                    - Simulations de consultations
+                </mj-text>
+                <mj-text>
+                    - Conférence / Présentation d'une structure de soin
+                </mj-text>
+            </mj-column>
+    </mj-section >
     <!--Lieu-->
+    <mj-section mj-class="Dsection">
+        <mj-column width="590px">
+        <mj-text>
+            Comment s'y rendre    
+        </mj-text>
+        <mj-text>
+            Accès Métro : Ligne 2 -station Tourcoing centre    
+        </mj-text>
+        <mj-text>
+            Accès Tramway : Terminus Tourcoing centre       
+        </mj-text>
+        <mj-text>
+            Accès Bus : Gare routière de Tourcoing
+        </mj-text>
+        <mj-text>
+            Accès Train : Gare de Tourcoing
+        </mj-text>
+        <mj-text>
+            Accès Voiture: Tourcoing centre
+        </mj-text>
+        </mj-column>
+    </mj-section>
+
     <!--Footer-->
         <!--Reseaux sociaux-->
         <mj-section>
