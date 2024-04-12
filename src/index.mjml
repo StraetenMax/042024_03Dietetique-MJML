@@ -14,7 +14,11 @@
         <mj-attributes>
             <mj-all font-family="Roboto, Arial, Helvetica, sans-serif" />
             <mj-class name="Dsection" background-color="#ffff" />
-            
+            <mj-class name="Dtitle" font-size="36px" font-weight="700" line-height="40px" color="#A83163"/>
+            <mj-class name="Dstitle" font-size="24px" font-weight="700" line-height="28px" color="#EC619F"/>
+            <mj-class name="Dtext" font-size="16px" font-weight="400" line-height="20px" color="#2D3748"/>
+            <mj-class name="Dfooter" font-size="12px" font-weight="400" line-height="16px" color="#2D3748"/> 
+            <mj-class name="Dspace" align="center" padding-top="0" padding-bottom="0"/>   
         </mj-attributes>
         <mj-breakpoint width="400px" />
     <!--Style-->
@@ -38,16 +42,16 @@
     </mj-section>
     <mj-section mj-class="Dsection">
         <mj-column width="590px">
-        <mj-text>
+        <mj-text mj-class="Dtitle Dspace">
         Journées de la Diététique
         </mj-text>
-            <mj-text>
+            <mj-text mj-class="Dstitle Dspace">
                 Vendredi 26 avril
             </mj-text>
-            <mj-text>
-                9h à 13h
+            <mj-text mj-class="Dstitle Dspace">
+                de 9h à 13h
             </mj-text>
-            <mj-text>
+            <mj-text mj-class="Dtext">
                 Dans le cadre de votre parcours de formation, Ecosup Diététique vous accompagne en vous proposant de participer aux :
             </mj-text>
         </mj-column>
@@ -64,30 +68,31 @@
     <mj-section mj-class="Dsection">
         <mj-column width="295px">
             <mj-image src="" alt="" />
-            <mj-text>
+            <mj-text mj-class="Dtext">
                 Rencontre avec:
             </mj-text>
-            <mj-text>
+            <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
                 - Etudiants 2e année
             </mj-text>
-            <mj-text>
+            <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
                 - Professionnels
             </mj-text>
-            <mj-text>
+            <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
                 - Professeurs
-            </mj-text>
+            </mj-text mj-class="Dtext">
         </mj-column>
             <mj-column width="295px">
-                <mj-text>
+                <mj-image src="" alt="" />
+                <mj-text mj-class="Dtext">
                 Participation à :
                 </mj-text>
-                <mj-text>
+                <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
                     - Ateliers diététiques
                 </mj-text>
-                <mj-text>
+                <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
                     - Simulations de consultations
                 </mj-text>
-                <mj-text>
+                <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
                     - Conférence / Présentation d'une structure de soin
                 </mj-text>
             </mj-column>
@@ -95,27 +100,26 @@
     <!--Lieu-->
     <mj-section mj-class="Dsection">
         <mj-column width="590px">
-        <mj-text>
+        <mj-text mj-class="Dtext">
             Comment s'y rendre    
         </mj-text>
-        <mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
             Accès Métro : Ligne 2 -station Tourcoing centre    
         </mj-text>
-        <mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
             Accès Tramway : Terminus Tourcoing centre       
         </mj-text>
-        <mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
             Accès Bus : Gare routière de Tourcoing
         </mj-text>
-        <mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
             Accès Train : Gare de Tourcoing
         </mj-text>
-        <mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
             Accès Voiture: Tourcoing centre
         </mj-text>
         </mj-column>
     </mj-section>
-
     <!--Footer-->
         <!--Reseaux sociaux-->
         <mj-section>
@@ -129,12 +133,12 @@
         </mj-section>
         <!--Adresse-->
         <mj-section>
-            <mj-column width="235px">
+            <mj-column  width="235px">
                 <mj-image src="" alt="" />
-                <mj-text>
+                <mj-text mj-class="Dfooter Dspace">
                     17 place Charles et Albert Roussel
                 </mj-text>
-                <mj-text>
+                <mj-text mj-class="Dfooter Dspace" text-transform="uppercase">
                     59200 tourcoing
                 </mj-text>
             </mj-column>
@@ -142,13 +146,13 @@
         <!--Reglement-->
         <mj-section>
             <mj-column width="380px">
-            <mj-text>
+            <mj-text mj-class="Dfooter Dspace">
                 Pour être sûr(e) de recevoir nos communications, ajoutez contact@ecosup-campus.fr dans votre carnet d'adresses.
             </mj-text>
-            <mj-text>
+            <mj-text mj-class="Dfooter Dspace">
                 Afficher dans votre navigateur
             </mj-text>
-                <mj-text>
+                <mj-text mj-class="Dfooter Dspace">
                     se désinscrire
                 </mj-text>
             </mj-column>
