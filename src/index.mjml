@@ -1,0 +1,68 @@
+<mjml>
+<!--Head-->
+    <mj-head>
+        <mj-title>relance Journées de la Diététique</mj-title>
+    <!--font-->
+        <mj-font name="Roboto" href="" />
+    <!--Bloquer Dark mode-->
+        <mj-raw>
+            <meta name="color-scheme" content="light"></meta>
+            <meta name="supported-color-schemes" content="light"></meta>
+        </mj-raw>
+        </mj-raw>
+    <!--attributes-->
+        <mj-attributes>
+            <mj-all font-family="Roboto, Arial, Helvetica, sans-serif" />
+            
+        </mj-attributes>
+        <mj-breakpoint width="400px" />
+    <!--Style-->
+        <mj-style>
+            
+        </mj-style>
+    </mj-head>
+<!--Body-->
+    <mj-body>
+    <!--Hero + Signature-->
+    <!--Button-->
+    <!--Articles-->
+    <!--Lieu-->
+    <!--Footer-->
+        <!--Reseaux sociaux-->
+        <mj-section>
+            <mj-column width="380px">
+                <mj-social>
+                    <mj-social-element>
+                        
+                    </mj-social-element>
+                </mj-social>
+            </mj-column>
+        </mj-section>
+        <!--Adresse-->
+        <mj-section>
+            <mj-column width="235px">
+                <mj-image src="" alt="" />
+                <mj-text>
+                    17 place Charles et Albert Roussel
+                </mj-text>
+                <mj-text>
+                    59200 tourcoing
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Reglement-->
+        <mj-section>
+            <mj-column width="380px">
+            <mj-text>
+                Pour être sûr(e) de recevoir nos communications, ajoutez contact@ecosup-campus.fr dans votre carnet d'adresses.
+            </mj-text>
+            <mj-text>
+                Afficher dans votre navigateur
+            </mj-text>
+                <mj-text>
+                    se désinscrire
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
