@@ -13,7 +13,7 @@
     <!--attributes-->
         <mj-attributes>
             <mj-all font-family="Roboto, Arial, Helvetica, sans-serif" />
-            <mj-class name="Dsection" background-color="#ffff" />
+            <mj-class name="Dsection" background-color="#ffffff" />
             <mj-class name="Dtitle" font-size="36px" font-weight="300" line-height="40px" color="#A83163"/>
             <mj-class name="Dstitle" font-size="24px" font-weight="700" line-height="28px" color="#EC619F"/>
             <mj-class name="Dsstitle" font-size="16px" font-weight="700" line-height="20px" color="#A83163"/>
@@ -22,7 +22,7 @@
             <mj-class name="Dspace" align="center" padding-top="0" padding-bottom="0"/>
             <mj-button font-size="16px" font-weight="500" line-height="20px" background-color="#ec619f" color="#ffffff"></mj-button>  
         </mj-attributes>
-        <mj-breakpoint width="400px" />
+        <mj-breakpoint width="550px" />
         <!-- 
             color text="#2D3748";
             rose f ="#A83163";
@@ -30,19 +30,21 @@
             font= "#edf2f7"
         -->
         <mj-style>
-        
+         .hover:hover td, .hover:hover a{ 
+                background-color:#a83163 !important;
+            }
         </mj-style>
     </mj-head>
 <!--Body-->
     <mj-body background-color="#edf2f7">
-    <!--Hero + Signature-->
-    <mj-section mj-class="Dsection">
+    <!--Hero-->
+    <mj-section mj-class="Dsection" padding="0">
         <mj-column width="600px">
-        <mj-image src="" alt="" />   
+        <mj-image padding="0" src="src/img/HEROLet2.jpg" alt="" />   
         </mj-column>
     </mj-section>
-    <mj-section mj-class="Dsection">
-        <mj-column width="590px">
+    <mj-section mj-class="Dsection" padding-bottom="0">
+        <mj-column width="580px">
         <mj-text mj-class="Dtitle Dspace">
         <span style="font-weight:700;">Journées</span> de la <span style="font-weight:700;">Diététique</span>
         </mj-text>
@@ -52,8 +54,8 @@
             <mj-text mj-class="Dstitle Dspace">
                 de 9h à 13h
             </mj-text>
-            <mj-text mj-class="Dtext">
-                Dans le cadre de votre parcours de formation, Ecosup Diététique vous accompagne en vous proposant de participer aux :
+            <mj-text align="center" mj-class="Dtext">
+                Dernière opportunité pour rencontrer l'équipe d'<span style="font-weight:700">ECOSUP DIÉTÉTIQUE</span>, valider votre choix d'orientation en BTS Diététique et concrétiser votre projet professionnel. Alors, pas de temps à perdre : date limite d'inscription pour ces journées,<span style="font-weight:700;"> le 21 avril</span>
             </mj-text>
         </mj-column>
     </mj-section>
@@ -65,36 +67,50 @@
         </mj-button>
         </mj-column>
     </mj-section>
+    <!--Signature-->
+    <mj-section mj-class="Dsection" padding="0">
+    <mj-column width="300px">
+        <mj-text mj-class="Dtext Dspace">
+        Jérôme Poulain
+        </mj-text>
+        <mj-text mj-class="Dtext Dspace">
+        Responsable pédagogique
+        </mj-text>
+        <mj-text mj-class="Dtext Dspace">
+        Ecosup Diététique
+        </mj-text>
+    </mj-column>         
+    </mj-section>
     <!--Articles-->
     <mj-section mj-class="Dsection">
         <mj-column width="295px">
-            <mj-image src="" alt="" />
+            <mj-image fluid-on-mobile="true" src="src/img/Image2_26042024.jpg" alt="" />
             <mj-text mj-class="Dsstitle">
-                Rencontre avec:
+                Rencontre avec
             </mj-text>
             <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
-                - Etudiants 2e année
+                - des Étudiants 2<sup>e</sup> année,
             </mj-text>
             <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
-                - Professionnels
+                - des Professionnels,
             </mj-text>
             <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
-                - Professeurs
+                - des Professeurs.
             </mj-text mj-class="Dtext">
         </mj-column>
             <mj-column width="295px">
-                <mj-image src="" alt="" />
+                <mj-image fluid-on-mobile="true" src="src/img/Image1_26042024.jpg" alt="" />
                 <mj-text mj-class="Dsstitle">
-                Participation à :
+                Participation à
                 </mj-text>
                 <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
-                    - Ateliers diététiques
+                    - des Ateliers diététiques,
                 </mj-text>
                 <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
-                    - Simulations de consultations
+                    - des Simulations de consultations,
                 </mj-text>
                 <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
-                    - Conférence / Présentation d'une structure de soin
+                    - la Conférence / Présentation d'une structure de soin.
                 </mj-text>
             </mj-column>
     </mj-section >
@@ -105,19 +121,19 @@
             Comment s'y rendre    
         </mj-text>
         <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
-            <span style="font-weight:700;color:#ec619f">Accès Métro :</span> Ligne 2 -station Tourcoing centre    
+            <span style="font-weight:500;">Accès Métro :</span> Ligne 2 -station Tourcoing centre.    
         </mj-text>
         <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
-          <span style="font-weight:700;color:#ec619f">Accès Tramway :</span> Terminus Tourcoing centre       
+          <span style="font-weight:500;">Accès Tramway :</span> Terminus Tourcoing centre.     
         </mj-text>
         <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
-           <span style="font-weight:700;color:#ec619f">Accès Bus :</span> Gare routière de Tourcoing
+           <span style="font-weight:500;">Accès Bus :</span> Gare routière de Tourcoing.
         </mj-text>
         <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
-            <span style="font-weight:700;color:#ec619f">Accès Train :</span> Gare de Tourcoing
+            <span style="font-weight:500;">Accès Train :</span> Gare de Tourcoing.
         </mj-text>
         <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
-            <span style="font-weight:700;color:#ec619f">Accès Voiture:</span> Tourcoing centre
+            <span style="font-weight:500;">Accès Voiture :</span> Tourcoing centre.
         </mj-text>
         </mj-column>
     </mj-section>
