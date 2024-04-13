@@ -34,7 +34,7 @@
     <!--Hero-->
     <mj-section mj-class="Dsection" padding="0">
         <mj-column width="600px">
-        <mj-image padding="0" src="src/img/HEROLet2.jpg" alt="affiche des Journées de la Diététique et photo de Jérome Poulain Responsable pédagogique Ecosup Diététique" />   
+        <mj-image padding="0" src="https://img.mailinblue.com/3403292/images/content_library/original/661a8c31ad812a318f11d734.jpg" alt="affiche des Journées de la Diététique et photo de Jérome Poulain Responsable pédagogique Ecosup Diététique" />   
         </mj-column>
     </mj-section>
     <mj-section mj-class="Dsection" padding-bottom="0">
@@ -78,7 +78,7 @@
     <!--Articles-->
     <mj-section mj-class="Dsection">
         <mj-column width="295px">
-            <mj-image fluid-on-mobile="true" src="src/img/Image2_26042024.jpg" alt="équilibre de vie" />
+            <mj-image fluid-on-mobile="true" src="https://img.mailinblue.com/3403292/images/content_library/original/661a8c3be0b69fbf8afae662.jpg" alt="équilibre de vie" />
             <mj-text mj-class="Dsstitle">
                 Rencontre avec
             </mj-text>
@@ -94,7 +94,7 @@
             <mj-spacer height="20px" />
         </mj-column>
             <mj-column width="295px">
-                <mj-image fluid-on-mobile="true" src="src/img/Image1_26042024.jpg" alt="ateliers diététiques, l'importance du conseil et des recommandations" />
+                <mj-image fluid-on-mobile="true" src="https://img.mailinblue.com/3403292/images/content_library/original/661a8c43ad812a318f11d736.jpg" alt="ateliers diététiques, l'importance du conseil et des recommandations" />
                 <mj-text mj-class="Dsstitle">
                 Participation à
                 </mj-text>
