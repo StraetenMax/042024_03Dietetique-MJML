@@ -14,22 +14,23 @@
         <mj-attributes>
             <mj-all font-family="Roboto, Arial, Helvetica, sans-serif" />
             <mj-class name="Dsection" background-color="#ffff" />
-            <mj-class name="Dtitle" font-size="36px" font-weight="700" line-height="40px" color="#A83163"/>
+            <mj-class name="Dtitle" font-size="36px" font-weight="300" line-height="40px" color="#A83163"/>
             <mj-class name="Dstitle" font-size="24px" font-weight="700" line-height="28px" color="#EC619F"/>
+            <mj-class name="Dsstitle" font-size="16px" font-weight="700" line-height="20px" color="#A83163"/>
             <mj-class name="Dtext" font-size="16px" font-weight="400" line-height="20px" color="#2D3748"/>
             <mj-class name="Dfooter" font-size="12px" font-weight="400" line-height="16px" color="#2D3748"/> 
-            <mj-class name="Dspace" align="center" padding-top="0" padding-bottom="0"/>   
+            <mj-class name="Dspace" align="center" padding-top="0" padding-bottom="0"/>
+            <mj-button font-size="16px" font-weight="500" line-height="20px" background-color="#ec619f" color="#ffffff"></mj-button>  
         </mj-attributes>
         <mj-breakpoint width="400px" />
-    <!--Style-->
         <!-- 
             color text="#2D3748";
             rose f ="#A83163";
             rose c ="#ec619f";
             font= "#edf2f7"
         -->
-        
         <mj-style>
+        
         </mj-style>
     </mj-head>
 <!--Body-->
@@ -43,7 +44,7 @@
     <mj-section mj-class="Dsection">
         <mj-column width="590px">
         <mj-text mj-class="Dtitle Dspace">
-        Journées de la Diététique
+        <span style="font-weight:700;">Journées</span> de la <span style="font-weight:700;">Diététique</span>
         </mj-text>
             <mj-text mj-class="Dstitle Dspace">
                 Vendredi 26 avril
@@ -68,7 +69,7 @@
     <mj-section mj-class="Dsection">
         <mj-column width="295px">
             <mj-image src="" alt="" />
-            <mj-text mj-class="Dtext">
+            <mj-text mj-class="Dsstitle">
                 Rencontre avec:
             </mj-text>
             <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
@@ -83,7 +84,7 @@
         </mj-column>
             <mj-column width="295px">
                 <mj-image src="" alt="" />
-                <mj-text mj-class="Dtext">
+                <mj-text mj-class="Dsstitle">
                 Participation à :
                 </mj-text>
                 <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
@@ -98,25 +99,25 @@
             </mj-column>
     </mj-section >
     <!--Lieu-->
-    <mj-section mj-class="Dsection">
+    <mj-section background-color="#E9ECF2">
         <mj-column width="590px">
-        <mj-text mj-class="Dtext">
+        <mj-text mj-class="Dsstitle">
             Comment s'y rendre    
         </mj-text>
         <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
-            Accès Métro : Ligne 2 -station Tourcoing centre    
+            <span style="font-weight:700;color:#ec619f">Accès Métro :</span> Ligne 2 -station Tourcoing centre    
         </mj-text>
         <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
-            Accès Tramway : Terminus Tourcoing centre       
+          <span style="font-weight:700;color:#ec619f">Accès Tramway :</span> Terminus Tourcoing centre       
         </mj-text>
         <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
-            Accès Bus : Gare routière de Tourcoing
+           <span style="font-weight:700;color:#ec619f">Accès Bus :</span> Gare routière de Tourcoing
         </mj-text>
         <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
-            Accès Train : Gare de Tourcoing
+            <span style="font-weight:700;color:#ec619f">Accès Train :</span> Gare de Tourcoing
         </mj-text>
         <mj-text padding-top="0" padding-bottom="0" mj-class="Dtext">
-            Accès Voiture: Tourcoing centre
+            <span style="font-weight:700;color:#ec619f">Accès Voiture:</span> Tourcoing centre
         </mj-text>
         </mj-column>
     </mj-section>
@@ -124,17 +125,21 @@
         <!--Reseaux sociaux-->
         <mj-section>
             <mj-column width="380px">
-                <mj-social>
-                    <mj-social-element>
-                        
-                    </mj-social-element>
+                <mj-text align="center" mj-class="Dsstitle">
+                    Suivez-nous sur
+                </mj-text>
+                <mj-social inner-padding="0 20px" icon-size="25px" mode="horizontal">
+                <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/660d6047d0d41f3120a8cdec.png" href="https://fr.linkedin.com/company/ecosup-campus" alt="Linkedin"></mj-social-element>
+                <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/660d604fd0d41f3120a8cdf5.png" href="https://www.facebook.com/EcosupCamp" alt="Facebook"></mj-social-element>
+                <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/660d605a373b24d832a3970d.png"  href="https://www.instagram.com/ecosup.campus" alt="Instagram"></mj-social-element>
+            </mj-social>
                 </mj-social>
             </mj-column>
         </mj-section>
         <!--Adresse-->
-        <mj-section>
+        <mj-section padding-bottom="0">
             <mj-column  width="235px">
-                <mj-image src="" alt="" />
+                <mj-image padding="0px" width="120px" src="https://img.mailinblue.com/3403292/images/content_library/original/660d606e373b24d832a39719.png" href="https://ecosup-campus.fr" alt="logo Ecosup Campus" />
                 <mj-text mj-class="Dfooter Dspace">
                     17 place Charles et Albert Roussel
                 </mj-text>
